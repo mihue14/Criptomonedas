@@ -4,15 +4,19 @@
     height: 70%;
   }
   .coinPrice {
-    padding-right: 100px;
+    padding-right: 200px;
   }
 
   .coinVolume {
-    padding-left: 20px;
+    padding-right: 80px;
   }
   
   .coinMarketcap{
-    padding-right: 10px;
+    padding-right: 0px;
+  }
+
+  .coinSymbol {
+    padding-left: 20px;
   }
 }
 
@@ -61,11 +65,11 @@
 }
 
 .coinPrice {
-  width: 110px;
+  width: 80px;
 }
 
 .coinVolume {
-  width: 230px;
+  width: 150px;
 }
 
 .coinMarketcap {
@@ -77,9 +81,11 @@
 }
 
 .coinPercentRed {
+  width: 110px;
   color: #f00606;
 }
 
 .coinPercentGreen {
   color: #11d811;
+  width: 110px;
 }
